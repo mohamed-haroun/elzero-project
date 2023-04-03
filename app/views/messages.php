@@ -1,0 +1,1 @@
+<h3 class="text-{{message_type}}">{{message}}</h3>

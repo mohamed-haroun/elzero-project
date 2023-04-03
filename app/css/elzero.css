@@ -1,0 +1,72 @@
+:root {
+    --dark-color: #19283f;
+    --green-color: #33d1cc;
+    --red-color: #ff3150;
+    --golden-color: #ffc400;
+    --section-color: #eff7fa;
+}
+
+body {
+    font-family: 'Prata', serif;
+}
+
+.main-btn {
+    background-color: var(--red-color);
+    color: var(--golden-color);
+    padding: .5rem 1rem;
+}
+
+.main-btn:hover {
+    color: var(--red-color);
+    background-color: var(--golden-color);
+}
+
+.main-title::after {
+    content: "";
+    width: 120px;
+    height: 2px;
+    background-color: var(--green-color);
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+/* Styling the nav bar */
+.navbar {
+    background-color: var(--dark-color);
+    z-index: 1000;
+}
+
+.navbar .navbar-brand {
+    color: white;
+}
+
+.navbar .navbar-brand:hover {
+    color: var(--red-color);
+}
+
+.navbar .navbar-nav li a {
+    color: var(--golden-color);
+}
+
+.navbar .navbar-nav li .dropdown-toggle{
+    color: var(--golden-color);
+}
+
+.navbar .navbar-nav li .dropdown-menu a {
+    color: var(--dark-color);
+}
+
+.navbar .navbar-nav li a.active,
+.navbar .navbar-nav li a:hover {
+    color: var(--red-color);
+}
+
+.user {
+    color: mediumseagreen;
+}

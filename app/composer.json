@@ -1,0 +1,22 @@
+{
+    "require": {
+        "ramsey/uuid": "^4.7",
+        "vlucas/phpdotenv": "^5.5",
+        "ext-pdo": "*",
+        "php-ds/php-ds": "^1.4",
+        "doctrine/orm": "^2.11.0",
+        "doctrine/dbal": "^3.2",
+        "symfony/yaml": "^5.4",
+        "symfony/cache": "^5.4"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "controllers\\": "controllers/",
+            "core\\": "core/",
+            "exceptions\\": "exceptions/",
+            "models\\": "models/",
+            "assets\\": "assets/"
+        }
+    }
+}

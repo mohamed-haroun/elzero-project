@@ -1,0 +1,23 @@
+main .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .container .form-div,
+main .container .text-div {
+    flex-basis: 50%;
+}
+
+main .container .text-div {
+    padding-left: 50px;
+}
+
+main .container form {
+    width: 100%;
+    margin-top: 100px;
+}
+
+main form textarea {
+    height: 12rem;
+}
